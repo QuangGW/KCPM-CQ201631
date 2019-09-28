@@ -1,4 +1,4 @@
-var express = require('express');
+﻿var express = require('express');
 var router = express.Router();
 var bcrypt = require('bcrypt');
 var _global = require('../global.js');
@@ -319,7 +319,7 @@ var insert_users = [
     ['Lê Anh', 'Thảo', 'lathao@fit.hcmus.edu.vn', '01228718705', bcrypt.hashSync('lathao', 10), 3], //168
     ['Nguyễn Thị Minh', 'Phúc', 'ntmphuc@fit.hcmus.edu.vn', '01228718705', bcrypt.hashSync('ntmphuc', 10), 3], //169
 
-    ['Super', 'Admin', 'admin@fit.hcmus.edu.vn', '01228718705', bcrypt.hashSync('admin', 10), 4], //170
+    ['Park Hang', 'Seo', 'parkhangseo@fit.hcmus.edu.vn', '01228718705', bcrypt.hashSync('admin', 10), 4], //170
 
     //['Huỳnh Hữu', 'Nghĩa', '1412572@student.hcmus.edu.vn', '01228718705', bcrypt.hashSync('1353019', 10), 1], //171
 ];
